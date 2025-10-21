@@ -1,4 +1,4 @@
-/* ======= Container ======= */
+
 .todoContainer {
   width: 100%;
   max-width: 900px;
@@ -7,7 +7,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* ======= Todo List Wrapper ======= */
+
 .todos {
   font-size: 18px;
   font-weight: 500;
@@ -17,7 +17,7 @@
   transition: all 0.3s ease;
 }
 
-/* ======= Individual Todo Item ======= */
+
 .items {
   display: flex;
   align-items: center;
@@ -37,7 +37,6 @@
   background: #f1fdf1;
 }
 
-/* ======= Edit Section ======= */
 .editText {
   display: flex;
   align-items: center;
@@ -59,7 +58,6 @@
   box-shadow: 0 0 8px rgba(0, 200, 255, 0.4);
 }
 
-/* ======= Buttons ======= */
 button {
   cursor: pointer;
   background: transparent;
@@ -84,7 +82,6 @@ button:hover {
   color: #e74c3c;
 }
 
-/* ======= Text + Action Section ======= */
 .editBtn {
   display: flex;
   justify-content: space-between;
@@ -100,7 +97,6 @@ button:hover {
   word-break: break-word;
 }
 
-/* ======= Scrollbar Styling ======= */
 .todos::-webkit-scrollbar {
   width: 8px;
 }
@@ -119,7 +115,6 @@ button:hover {
   border-radius: 8px;
 }
 
-/* ======= Responsive ======= */
 @media (max-width: 600px) {
   .items {
     flex-direction: column;
