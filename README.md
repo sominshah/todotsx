@@ -17,3 +17,9 @@ It is built using **React** with **TypeScript**, and the project was bootstrappe
 * **Frontend:** React + TypeScript
 * **Build Tool:** Vite
 * **Storage:** Local Storage API
+
+
+### App Screenshot
+
+#### To do List
+![To do List](https://raw.githubusercontent.com/sominshah/todotsx/main/public/screenshots/toScreenshots.png)
